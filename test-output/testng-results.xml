@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="67212" started-at="2020-03-22T18:51:19Z" finished-at="2020-03-22T18:52:26Z">
+    <groups>
+    </groups>
+    <test name="bankTest" duration-ms="25787" started-at="2020-03-22T18:51:19Z" finished-at="2020-03-22T18:51:45Z">
+      <class name="cimb.qa.testcases.CimbBankTestCases">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:cimb.qa.testcases.CimbBankTestCases@31304f14]" name="openBrowser" is-config="true" duration-ms="15864" started-at="2020-03-22T18:51:19Z" finished-at="2020-03-22T18:51:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.cimbbank.com.sg/en/personal/index.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="cimbBankToolsTestCases()[pri:0, instance:cimb.qa.testcases.CimbBankTestCases@31304f14]" name="cimbBankToolsTestCases" duration-ms="9048" started-at="2020-03-22T18:51:35Z" finished-at="2020-03-22T18:51:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cimbBankToolsTestCases -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cimb.qa.testcases.CimbBankTestCases@31304f14]" name="closeBrowser" is-config="true" duration-ms="683" started-at="2020-03-22T18:51:44Z" finished-at="2020-03-22T18:51:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- cimb.qa.testcases.CimbBankTestCases -->
+    </test> <!-- bankTest -->
+    <test name="dealsTest" duration-ms="41391" started-at="2020-03-22T18:51:45Z" finished-at="2020-03-22T18:52:26Z">
+      <class name="cimb.qa.testcases.CimbDealsTestCases">
+        <test-method status="PASS" signature="openBrowser(java.lang.String)[pri:0, instance:cimb.qa.testcases.CimbDealsTestCases@2d3379b4]" name="openBrowser" is-config="true" duration-ms="14289" started-at="2020-03-22T18:51:45Z" finished-at="2020-03-22T18:51:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.cimb.com.my/en/personal/home.html]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="cimbDealDeatilsTestCase()[pri:0, instance:cimb.qa.testcases.CimbDealsTestCases@2d3379b4]" name="cimbDealDeatilsTestCase" duration-ms="26348" started-at="2020-03-22T18:51:59Z" finished-at="2020-03-22T18:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cimbDealDeatilsTestCase -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:cimb.qa.testcases.CimbDealsTestCases@2d3379b4]" name="closeBrowser" is-config="true" duration-ms="734" started-at="2020-03-22T18:52:26Z" finished-at="2020-03-22T18:52:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- cimb.qa.testcases.CimbDealsTestCases -->
+    </test> <!-- dealsTest -->
+  </suite> <!-- Suite -->
+</testng-results>

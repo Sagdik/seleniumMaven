@@ -1,0 +1,12 @@
+qa\cimb\CimbBase.class
+qa\cimb\pages\ToolsPages.class
+qa\cimb\pages\LoanCalculator.class
+qa\cimb\utility\ExtentReportsListner.class
+qa\cimb\utility\ScrollPageUtility.class
+qa\cimb\utility\PropertyReader.class
+qa\cimb\pages\CimbBankHomePage.class
+qa\cimb\utility\CustomeListner.class
+qa\cimb\utility\RetryFailedTestCases.class
+qa\cimb\utility\RetryListener.class
+qa\cimb\pages\CimbEcommerceHomePage.class
+qa\cimb\pages\DealPage.class

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+        <listener class-name="qa.cimb.utility.RetryListener"/>
+        <listener class-name="qa.cimb.utility.ExtentReportsListner" />
+  </listeners>
+
+   <test thread-count="5" name="bankTest">
+  <parameter name="url" value="https://www.cimbbank.com.sg/en/personal/index.html" />
+    <classes>
+      <class name="cimb.qa.testcases.CimbBankTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="dealsTest">
+  <parameter name="url" value="https://www.cimb.com.my/en/personal/home.html" />
+    <classes>
+      <class name="cimb.qa.testcases.CimbDealsTestCases"/>
+    </classes>
+  </test> <!-- Test -->
+  
+</suite> <!-- Suite -->
